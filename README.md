@@ -12,9 +12,9 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/nancyuzawa/Calculadora-web?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/nancyuzawa/Conversor-moeda-web?color=%2304D361">
   <a href="https://github.com/tgmarinho/nlw1/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/nancyuzawa/Calculadora-web">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/nancyuzawa/Conversor-moeda-web">
   </a>
 </p>
 
