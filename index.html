@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./assets/icon-conversor-de-moeda.webp" type="image/x-icon">
+
+    <!-- IMPORTANDO A FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- ARQUIVO JS -->
+     <script type="text/javascript" src="./assets/main.js"></script>
+    <title>Conversor de moeda</title>
+</head>
+<body>
+    <header>
+        <h1>CONVERSOR DE MOEDAS</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                    <legend>Converter moeda</legend>
+                    <label>
+                        De: 
+                        <select name="moeda" id="converterDe">
+                            <option value="escolha" id="de-escolha">Escolha uma moeda</option>
+                            <option value="dolar" id="de-dolar">🇺🇲&emsp;Dolar</option>
+                            <option value="euro" id="de-euro">🇪🇺&emsp;Euro</option>
+                            <option value="real" id="de-real">🇧🇷&emsp;Real</option>
+                        </select>
+                    </label>
+                    <label>
+                        Para:
+                        <select name="moeda" id="converterPara">
+                            <option value="escolha">Escolha uma moeda</option>
+                            <option value="dolar">🇺🇲&emsp;Dolar</option>
+                            <option value="euro">🇪🇺&emsp;Euro</option>
+                            <option value="real">🇧🇷&emsp;Real</option>
+                        </select>
+                    </label>
+                    <label>
+                        Quantia:
+                        <input type="number" id="inputValor">
+                    </label>
+                    <button id="btnCalcular" onclick="verificarCampos()">Calcular</button>
+                    <label>
+                        Resultado:
+                        <input id="inputResultado" type="text" disabled>
+                    </label>
+            </fieldset>
+        </form>
+    </main>
+    <script>
+        //Impedir o envio do formulário
+        document.getElementById("btnCalcular").addEventListener("click", function(event){
+        event.preventDefault();
+    });
+    </script>
+</body>
+</html>
