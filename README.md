@@ -37,6 +37,13 @@
   - Real -> Euro
   - Euro -> Real
 </p>
+<p>
+	Sendo a cotação usada:
+
+	- cotação do Dolar - Real = 5.0;
+	- cotação do Euro - Real = 5.5;
+	- cotação Dolar - Euro = 1.07;
+</p>
 
 <h2 id="demo">
 	Demonstração da aplicação
